@@ -184,6 +184,10 @@ img {
   border-radius: 50%;
   padding: 0;
 }
+
+.modal__close-btn-icon {
+  transition: fill var(--transformation);
+}
 .modal__close-btn:hover > .modal__close-btn-icon {
   fill: var(--logo-color);
 }
@@ -302,7 +306,7 @@ img {
   overflow: hidden;
 }
 .modal-form__checkbox-block-checkbox:checked + .modal-form__checkbox-block-desc::before {
-  background-image: url(../../images/icon-check.png);
+  background-image: url(../images/form-check.jpg);
   background-size: cover;
   border: none;
 }
@@ -383,7 +387,7 @@ img {
   bottom: 0;
   width: 100%;
   border-radius: 2px;
-  transition: var(--transformation);
+  transition: background-color var(--transformation);
 }
 
 .menu-nav-item__link {
