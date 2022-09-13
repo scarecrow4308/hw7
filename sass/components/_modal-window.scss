@@ -23,7 +23,11 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   padding: 0;
-  &:hover > .modal__close-btn-icon {
+}
+
+.modal__close-btn-icon {
+  transition: fill var(--transformation);
+  .modal__close-btn:hover > & {
     fill: var(--logo-color);
   }
 }
