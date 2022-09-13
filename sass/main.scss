@@ -1,0 +1,26 @@
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+@import "./base/common";
+@import "./base/container";
+@import "./base/section";
+
+@import "./components/main-button";
+@import "./components/social-links-block";
+@import "./components/sprites-common-utilities";
+@import "./components/logo";
+@import "./components/backdrop";
+@import "./components/modal-window";
+@import "./components/modal-form-studio-page";
+@import "./components/page-background-color";
+@import "./components/address-links";
+
+@import "./layuot/header";
+@import "./layuot/solutions";
+@import "./layuot/features";
+@import "./layuot/activities";
+@import "./layuot/team";
+@import "./layuot/clients";
+@import "./layuot/footer";
+@import "./layuot/portfolio-nav";
+@import "./layuot/portfolio-products";

@@ -1,0 +1,14 @@
+.social-links {
+  width: 20px;
+  height: 20px;
+
+  .team-section__links-item:hover &,
+  .team-section__links-item:focus & {
+    fill: var(--bg-color-main);
+  }
+
+  .bottom__social-links:hover &,
+  .bottom__social-links:focus & {
+    fill: var(--bg-color-main);
+  }
+}
